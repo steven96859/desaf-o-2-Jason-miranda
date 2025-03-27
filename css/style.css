@@ -1,0 +1,44 @@
+body {
+    background-color: blueviolet;
+}
+nav img {
+    width: 300px;
+}
+.contenedor {
+    background-color: white;
+    color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+}
+.contenedor a{
+    margin-left: 10%;
+    text-decoration: none;
+    font-size: 25px;
+    color: blueviolet;
+}
+.tarjetas {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    background-color: white;
+    margin:20px;
+    width:300px;
+    border-radius:20px;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px rgb(55, 17, 92);
+    font-family: "Sansita", sans-serif;
+}
+.card:hover {
+    background-color: #ac54ff;
+    transform: scale(1.05);
+}
+.card-contenido{
+    font-size: 15px;
+    color: blueviolet;
+    padding: 20px 20px 20px 20px;
+}
+
+
