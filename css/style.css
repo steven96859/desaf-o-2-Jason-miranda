@@ -1,8 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
 body {
     background-color: blueviolet;
 }
 nav img {
     width: 300px;
+}
+footer{
+    background-color: gray;
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: center;
+}
+button {
+    text-decoration: none;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1_st {
+    color: white;
+    display: flex;
+    justify-content: center;
 }
 .contenedor {
     background-color: white;
@@ -40,5 +59,43 @@ nav img {
     color: blueviolet;
     padding: 20px 20px 20px 20px;
 }
+.tarjetas2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card2 {
+    background-color: white;
+    margin: 50px;
+    width:700px;
+    border-radius:20px;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px rgb(55, 17, 92);
+    font-family: "Sansita", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor2 img {
+    width: 300px;
+}
+.card .footer{
+    background-color: #ac54ff;
+    color: white;
+    border-radius:20px;
+    overflow: hidden;
+    text-align: center;
+    
+}
+.codigo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.codigo2 {
+    background-color: white;
+    text-align: center;
+}
+
 
 
